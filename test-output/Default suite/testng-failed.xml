@@ -5,8 +5,12 @@
     <classes>
       <class name="Selenium.TestNG.TestCase1">
         <methods>
+          <include name="date2"/>
           <include name="After"/>
-          <include name="contactUs"/>
+          <include name="verifRadioButton"/>
+          <include name="fromTo"/>
+          <include name="date1"/>
+          <include name="selectCountry"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- Selenium.TestNG.TestCase1 -->
