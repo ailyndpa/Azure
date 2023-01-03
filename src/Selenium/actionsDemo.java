@@ -24,6 +24,9 @@ public class actionsDemo {
 		} else {
 			System.setProperty("webdriver.gecko.driver", "./src/resources/geckodriver");
 		}
+		
+		PROBANDO
+		
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.com/gp/css/homepage.html/ref=nav_bb_ya");
