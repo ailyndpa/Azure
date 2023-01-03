@@ -93,6 +93,6 @@ public class TestCase1 {
 
 	@AfterClass
 	public void After() {
-		// driver.close();
+		driver.close();
 	}
 }
